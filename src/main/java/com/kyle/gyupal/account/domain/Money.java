@@ -1,4 +1,4 @@
-package com.kyle.gyupal.domain;
+package com.kyle.gyupal.account.domain;
 
 import java.math.BigInteger;
 

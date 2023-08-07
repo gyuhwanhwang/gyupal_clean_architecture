@@ -1,4 +1,4 @@
-package com.kyle.gyupal.domain;
+package com.kyle.gyupal.account.domain;
 
 import java.time.LocalDateTime;
 import java.util.Optional;

@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1ceff2e-9a6c-4451-a101-a87609a94a64" name="Changes" comment="" />
+    <list default="true" id="c1ceff2e-9a6c-4451-a101-a87609a94a64" name="Changes" comment="04 유스케이스 구현하기 - 유스케이스">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/application/port/in/GetAccountBalanceQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/account/application/port/in/GetAccountBalanceQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/application/port/in/SendMoneyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/account/application/port/in/SendMoneyCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/application/port/in/SendMoneyUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/account/application/port/in/SendMoneyUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/application/port/out/LoadAccountPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/account/application/port/out/LoadAccountPort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/application/service/GetAccountBalanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/account/application/service/GetAccountBalanceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/application/service/SendMoneyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/account/application/service/SendMoneyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/account/domain/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/domain/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/account/domain/Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/domain/ActivityWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/account/domain/ActivityWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/domain/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/account/domain/Money.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,14 +30,58 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gyupal" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gyupal" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gyupal" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gyupal" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="testRuntimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="4b03093e-42cf-45cb-95d2-e862cfdcf49d" />
+  </component>
   <component name="ProjectId" id="2TZRu31bMmFeYBu4HnuzDH61RYp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,14 +91,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "editing.templates",
     "show.migrate.to.gradle.popup": "false",
+    "spring.configuration.checksum": "738fc6e053a8357d1891aa14ccf453dd",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -56,12 +117,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691248836870</updated>
-      <workItem from="1691248838183" duration="3906000" />
+      <workItem from="1691248838183" duration="10696000" />
+      <workItem from="1691409992760" duration="2215000" />
     </task>
+    <task id="LOCAL-00001" summary="04 유스케이스 구현하기 - 도메인 모델 구현하기">
+      <option name="closed" value="true" />
+      <created>1691309933676</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691309933676</updated>
+    </task>
+    <task id="LOCAL-00002" summary="04 유스케이스 구현하기 - 유스케이스">
+      <option name="closed" value="true" />
+      <created>1691411030182</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691411030182</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="04 유스케이스 구현하기 - 도메인 모델 구현하기" />
+    <MESSAGE value="04 유스케이스 구현하기 - 유스케이스" />
+    <option name="LAST_COMMIT_MESSAGE" value="04 유스케이스 구현하기 - 유스케이스" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

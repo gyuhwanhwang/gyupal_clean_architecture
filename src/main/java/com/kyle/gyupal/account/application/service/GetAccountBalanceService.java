@@ -1,9 +1,9 @@
-package com.kyle.gyupal.application.service;
+package com.kyle.gyupal.account.application.service;
 
-import com.kyle.gyupal.application.port.in.GetAccountBalanceQuery;
-import com.kyle.gyupal.application.port.out.LoadAccountPort;
-import com.kyle.gyupal.domain.Account;
-import com.kyle.gyupal.domain.Money;
+import com.kyle.gyupal.account.domain.Money;
+import com.kyle.gyupal.account.application.port.in.GetAccountBalanceQuery;
+import com.kyle.gyupal.account.application.port.out.LoadAccountPort;
+import com.kyle.gyupal.account.domain.Account;
 import lombok.RequiredArgsConstructor;
 
 import java.time.LocalDateTime;

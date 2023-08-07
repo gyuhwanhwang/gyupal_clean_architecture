@@ -1,8 +1,8 @@
-package com.kyle.gyupal.application.port.in;
+package com.kyle.gyupal.account.application.port.in;
 
+import com.kyle.gyupal.account.domain.Money;
 import com.kyle.gyupal.common.SelfValidating;
-import com.kyle.gyupal.domain.Account.AccountId;
-import com.kyle.gyupal.domain.Money;
+import com.kyle.gyupal.account.domain.Account.AccountId;
 import jakarta.validation.constraints.NotNull;
 import lombok.EqualsAndHashCode;
 import lombok.Value;

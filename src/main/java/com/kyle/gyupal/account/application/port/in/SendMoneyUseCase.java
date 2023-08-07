@@ -1,4 +1,4 @@
-package com.kyle.gyupal.application.port.in;
+package com.kyle.gyupal.account.application.port.in;
 
 public interface SendMoneyUseCase {
 

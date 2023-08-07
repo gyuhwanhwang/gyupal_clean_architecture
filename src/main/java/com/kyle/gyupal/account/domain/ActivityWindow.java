@@ -1,4 +1,4 @@
-package com.kyle.gyupal.domain;
+package com.kyle.gyupal.account.domain;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import com.kyle.gyupal.domain.Account.AccountId;
+import com.kyle.gyupal.account.domain.Account.AccountId;
 import lombok.NonNull;
 
 /**
