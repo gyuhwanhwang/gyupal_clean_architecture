@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1ceff2e-9a6c-4451-a101-a87609a94a64" name="Changes" comment="06 영속성 어댑터 구현하기">
+    <list default="true" id="c1ceff2e-9a6c-4451-a101-a87609a94a64" name="Changes" comment="07 아키텍처 요소 테스트하기 - 통합 테스트까지">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/account/application/service/SendMoneyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/account/application/service/SendMoneyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/GyupalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/gyupal/GyuPalApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kyle/gyupal/GyupalApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kyle/gyupal/GyuPalApplicationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,28 +78,28 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "dart.analysis.tool.window.visible": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.import",
-    "show.migrate.to.gradle.popup": "false",
-    "spring.configuration.checksum": "738fc6e053a8357d1891aa14ccf453dd",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;738fc6e053a8357d1891aa14ccf453dd&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.kyle.gyupal.domain" />
@@ -153,7 +153,8 @@
       <updated>1691248836870</updated>
       <workItem from="1691248838183" duration="10696000" />
       <workItem from="1691409992760" duration="6285000" />
-      <workItem from="1691582007421" duration="14154000" />
+      <workItem from="1691582007421" duration="17675000" />
+      <workItem from="1692019734087" duration="4787000" />
     </task>
     <task id="LOCAL-00001" summary="04 유스케이스 구현하기 - 도메인 모델 구현하기">
       <option name="closed" value="true" />
@@ -187,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691912649208</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="07 아키텍처 요소 테스트하기 - 통합 테스트까지">
+      <option name="closed" value="true" />
+      <created>1691931175113</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691931175113</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +218,8 @@
     <MESSAGE value="04 유스케이스 구현하기 - 유스케이스" />
     <MESSAGE value="05 웹 어댑터 구현하기" />
     <MESSAGE value="06 영속성 어댑터 구현하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="06 영속성 어댑터 구현하기" />
+    <MESSAGE value="07 아키텍처 요소 테스트하기 - 통합 테스트까지" />
+    <option name="LAST_COMMIT_MESSAGE" value="07 아키텍처 요소 테스트하기 - 통합 테스트까지" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
